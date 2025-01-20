@@ -1,0 +1,74 @@
+
+
+/*shered style*/
+
+.display-flex {
+    display: flex;
+
+}
+.main-bg {
+    background: #F7F7F7;
+}
+.btn-primary{ 
+    background: orange;
+    color: #fff;
+    padding: 13px 60px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+}
+.text-one {
+    color: orange;
+}
+
+.text-two {
+    color: skyblue;
+}
+.text-three {
+    color: #05D4DF;
+}
+
+.text-four {
+    color: #5D58EF
+}
+
+
+
+
+
+
+
+
+
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo h1{
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 2rem;
+   margin-left: 12px;
+}
+.nav-logo img{
+width: 64px;
+height: 64px;
+padding-top: 12px;
+ }
+.nav-item {
+    list-style: none;
+    margin-right: 1.8rem;
+    text-align: center;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
