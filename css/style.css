@@ -18,6 +18,15 @@
     border-radius: 12px;
     border: none;
 }
+.btn-black{ 
+    background: #000;
+    color: #fff;
+    padding: 13px 60px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+}
 .text-one {
     color: orange;
 }
@@ -41,7 +50,8 @@
 
 
 
-.navbar{
+.navbar,
+.banner{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -71,4 +81,29 @@ padding-top: 12px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.25rem;
+}
+.banner-content {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: left;
+    margin: 122px 0;
+    padding: 0 50px 0 0;
+}
+
+.banner-content h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: left;
+    padding:0 150px 0 0;
+}
+
+.banner-content p {
+    font-size: 1.25rem;
+    color: black;
+    font-weight: normal;
+    padding-right: 100px;
+}
+.banner-img{
+    width: 46%;
+   
 }
