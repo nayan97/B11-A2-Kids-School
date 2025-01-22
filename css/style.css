@@ -83,12 +83,6 @@
 
 
 
-
-
-
-
-
-
 .navbar,
 .banner, 
 section{
@@ -191,4 +185,54 @@ gap: 30px;
    height: 50px;
    text-align: center;
    border: none;
+}
+
+
+/* .story-overly {
+    background-color: linear-gradient(0deg, rgba(249, 222, 174, 0.8), rgba(249, 247, 242, 0.8));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249, 222, 174, 0.8);
+} */
+/* .card-container {
+    margin-bottom: 200px;
+} */
+
+.card-content-left {
+    max-width: 540px;
+    background: #fff;
+    border-radius: 16px;
+    margin-bottom: 100px;
+   
+}
+.single-card img{
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+}
+.single-card-text {
+    padding: 0 30px;
+}
+.card-content-right {
+    margin-bottom: 100px;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card-content {
+    background: #fff;
+    border-radius: 16px;
+}
+
+.card-content img{
+    width: 100%;
+    height: 177px;
+    border-radius: 16px 16px 0 0;
+}
+.card-content h6{
+padding: 28px 37px;
+font-size: 16px;
+font-weight: bold;
 }
