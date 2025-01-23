@@ -245,22 +245,53 @@ font-weight: bold;
 
 .footer-container {
     justify-content: space-evenly;
-    padding: 123px 2px 174px 2px
+    padding: 113px 2px 150px 2px
 }
-
+.footer-container h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 8px 0 22px;
+}
+.footer-content {
+    max-width: 400px;
+}
+.footer-content img{
+    width: 84px;
+    height: 84px;
+}
+.footer-content h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #000;
+    padding: 8px 0;
+}
+.footer-content p {
+   font-weight: normal;
+   font-size: 1.25rem;
+   color: #808080;
+   padding: 32px 0;
+}
 #footer {
-    background: #01ACFD;
+    background: #ddd;
 }
 .social-item{
     list-style: none;
     margin-right: .8rem;
     text-align: center;
+   
 }
 .footer-li-item {
     list-style: none;
     text-align: left;
+    padding-bottom: 12px;
+   
 }
-
+.footer-nav-link {
+    text-decoration: none;
+    color: #808080;
+    font-weight: 500;
+}
 .social-item a{
 text-decoration: none;
+
 }
