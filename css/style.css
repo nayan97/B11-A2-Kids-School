@@ -101,6 +101,7 @@
    font-weight: bold;
    font-size: 2rem;
    margin-left: 12px;
+   padding-top: 30px;
 }
 .nav-logo img{
 width: 64px;
@@ -136,9 +137,9 @@ padding-top: 12px;
 
 .banner-content p {
     font-size: 1.25rem;
-    color: black;
+    color: #808080;
     font-weight: normal;
-    padding-right: 100px;
+    padding: 24px 100px 24px 0;
 }
 .banner-img{
     width: 46%;
@@ -208,6 +209,45 @@ gap: 30px;
     margin-bottom: 100px;
    
 }
+.btn-left-bg{
+    background: #05D4DF;
+    margin-top: -200px !important;
+    margin-left: -250px;
+    max-width: 175px;
+    height: 47px;
+    border-radius: 30px;
+    border: none;
+  
+}
+.btn-left-bg span {
+    padding: 26px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-like-bg{
+    background: #95B226;
+    margin-top: -50px !important;
+    margin-left: -60px;
+    max-width: 175px;
+    height: 38px;
+    border-radius: 30px;
+    border: none;
+  ;
+  
+  
+}
+.btn-like-bg span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px;
+   
+   
+}
+
+
 .single-card img{
     border-radius: 16px 16px 0 0;
     width: 100%;
@@ -245,7 +285,7 @@ font-weight: bold;
 
 .footer-container {
     justify-content: space-evenly;
-    padding: 113px 2px 150px 2px
+    padding: 113px 2px 100px 2px
 }
 .footer-container h4 {
   font-weight: bold;
