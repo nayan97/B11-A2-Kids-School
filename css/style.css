@@ -335,3 +335,31 @@ font-weight: bold;
 text-decoration: none;
 
 }
+
+/* ===========================*/
+/*responsive styles for small device */
+/* ===========================*/
+
+@media screen and (max-width: 576px) {
+    .nav-item,
+    .nav-btn,
+    .card-content-left,
+    .bottom-btn,
+    .nav-logo-hd {
+        display: none;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-img img{
+        max-width: 336px;
+        padding: 40px;
+     
+    }
+    .card-container,
+    .footer-container{
+        flex-direction:column ;
+        padding: 0 20px;
+    }
+}
