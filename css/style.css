@@ -1,11 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*shered style*/
+
 .menu-icon {
     display: none;
 }
-/*shered style*/
 
 .display-flex {
     display: flex;
@@ -122,6 +135,17 @@ padding-top: 12px;
     font-weight: bold;
     font-size: 1.25rem;
 }
+.update-notice {
+    padding: 10px;
+    border-radius: 10px;
+}
+.update-notice marquee{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    width: 60%;
+}
 .banner-content {
     max-width: 640px;
     margin: 0 auto;
@@ -150,6 +174,7 @@ padding-top: 12px;
 
 
 /* couriculam section */
+
 .card-container{
 justify-content: space-between;
 text-align: center;
@@ -193,7 +218,7 @@ gap: 30px;
    border: none;
 }
 
-
+/*story styles */
 .story-overly {
 
     /* background-color: linear-gradient(0deg, rgba(249, 222, 174, 0.8), rgba(249, 247, 242, 0.8)); */
@@ -278,11 +303,15 @@ gap: 30px;
 padding: 28px 37px;
 font-size: 16px;
 font-weight: bold;
+text-align: left;
 }
 
 .story-button {
     padding-bottom: 60px;
 }
+
+
+/* footer  styles */
 
 
 .footer-container {
@@ -361,6 +390,16 @@ text-decoration: none;
         width: 60px;
         height: 60px;
         padding: 10px 15px;
+    }
+    .update-notice {
+      
+        padding: 10px;
+        
+    }
+    .update-notice marquee{
+        width: 95%;
+    
+        
     }
     .banner{
         flex-direction: column-reverse;
