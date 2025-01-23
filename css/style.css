@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+.menu-icon {
+    display: none;
+}
 /*shered style*/
 
 .display-flex {
@@ -348,14 +350,60 @@ text-decoration: none;
     .nav-logo-hd {
         display: none;
     }
-
+    .navbar {
+        border-bottom: 2px solid orange;
+    }
+    .nav-logo img,
+    .menu-icon {
+        display: block;
+    }
+    .menu-icon img {
+        width: 60px;
+        height: 60px;
+        padding: 10px 15px;
+    }
     .banner{
         flex-direction: column-reverse;
+        margin-left: 10px;
     }
     .banner-img img{
         max-width: 336px;
         padding: 40px;
      
+    }
+    .banner-content{
+        text-align: center;
+        margin: 2px;
+    }
+    .banner-content h1{
+        padding: 0 40px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .banner-content p{
+     
+        text-align: center;
+        font-weight: 500;
+        font-size: .9rem;
+        padding: 18px 40px;
+    }
+
+    .btn-like-bg {
+        margin-left: 5px;
+        max-width: 175px;
+        height: 32px;
+        padding: 12px;
+    }
+    .btn-like-bg span {
+        font-size: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        padding: 80px 0 40px;
     }
     .card-container,
     .footer-container{
